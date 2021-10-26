@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MyAssets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/MyAssets/Scenes/LobbyWait.unity
+    guid: c7a2d1dba9751134f87cadfcf37c3e35
+  - enabled: 0
+    path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Launcher.unity
+    guid: bff77b01b50254edbb6edeeaba5ae8b3
+  - enabled: 0
+    path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
+      for 1.unity
+    guid: 9b8561c6e396849a5ba48c3eb9524049
+  - enabled: 1
+    path: Assets/MyAssets/Scenes/SelectionLobby.unity
+    guid: c3e85dc8bbfed69469b9c5aa0ceaa75d
+  m_configObjects: {}
