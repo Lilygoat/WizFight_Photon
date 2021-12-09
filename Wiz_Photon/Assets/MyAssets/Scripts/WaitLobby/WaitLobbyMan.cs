@@ -67,7 +67,7 @@ public class WaitLobbyMan : MonoBehaviourPunCallbacks
             DontDestroyOnLoad(temp);
             temp.GetComponent<PhotonView>().TransferOwnership(x);
 
-            Debug.Log(x.ToString());
+            //Debug.Log(x.ToString());
         }
 
         PhotonNetwork.LoadLevel(2);

@@ -36,18 +36,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\AssetModBlock\ParrelSyncAssetModificationProcessor.cs" />
-     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\AssetModBlock\EditorQuit.cs" />
-     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\UpdateChecker.cs" />
-     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\ClonesManager.cs" />
-     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\ClonesManagerWindow.cs" />
-     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\Preferences.cs" />
-     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\ValidateCopiedFoldersIntegrity.cs" />
-     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\ExternalLinks.cs" />
-     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\FileUtilities.cs" />
      <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\Project.cs" />
-     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\NonCore\OtherMenuItem.cs" />
      <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\NonCore\AskFeedbackDialog.cs" />
+     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\FileUtilities.cs" />
+     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\ExternalLinks.cs" />
+     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\AssetModBlock\EditorQuit.cs" />
+     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\ClonesManagerWindow.cs" />
+     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\AssetModBlock\ParrelSyncAssetModificationProcessor.cs" />
+     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\ClonesManager.cs" />
+     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\ValidateCopiedFoldersIntegrity.cs" />
+     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\NonCore\OtherMenuItem.cs" />
+     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\Preferences.cs" />
+     <Compile Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\Editor\UpdateChecker.cs" />
      <None Include="Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4\projectCloner.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -280,14 +280,14 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework">
-        <HintPath>D:/Unity Projects D/WizPhoton/Wiz_Photon/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+    <Reference Include="websocket-sharp">
+        <HintPath>D:/Unity Projects D/WizPhoton/Wiz_Photon/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
         <HintPath>D:/Unity Projects D/WizPhoton/Wiz_Photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
     </Reference>
-    <Reference Include="websocket-sharp">
-        <HintPath>D:/Unity Projects D/WizPhoton/Wiz_Photon/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+    <Reference Include="nunit.framework">
+        <HintPath>D:/Unity Projects D/WizPhoton/Wiz_Photon/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

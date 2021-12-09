@@ -7,6 +7,8 @@ TagManager:
   - Pslots
   - PLAYER
   - Lifeboat
+  - PLAYERDB
+  - Scoreboard
   layers:
   - Default
   - TransparentFX

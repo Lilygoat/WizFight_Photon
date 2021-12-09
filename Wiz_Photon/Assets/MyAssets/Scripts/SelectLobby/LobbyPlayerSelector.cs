@@ -101,7 +101,7 @@ public class LobbyPlayerSelector : MonoBehaviourPunCallbacks
 
     private void setImage(int num)
     {
-        Debug.Log("SetIm: " + num);
+        //Debug.Log("SetIm: " + num);
         if(PlayerPrefs.GetInt("ColorBlindMode", 0) == 0)
         {
             switch(num)
@@ -137,13 +137,13 @@ public class LobbyPlayerSelector : MonoBehaviourPunCallbacks
 
     private void setPow(int pow, int num)
     {
-        Debug.Log("Set pow" + pow + ": " + num);
+        //Debug.Log("Set pow" + pow + ": " + num);
         if(pow == 1)
         {
             switch(num)
             {
                 case 1:
-                    pow1txt.text = "Fire";
+                    pow1txt.text = "Ramp";
                     break;
                 case 2:
                     pow1txt.text = "Push";
@@ -152,10 +152,10 @@ public class LobbyPlayerSelector : MonoBehaviourPunCallbacks
                     pow1txt.text = "Shock";
                     break;
                 case 4:
-                    pow1txt.text = "Drag";
+                    pow1txt.text = "Cyclone";
                     break;
                 case 5:
-                    pow1txt.text = "Blast";
+                    pow1txt.text = "Freeze";
                     break;
                 case 6:
                     pow1txt.text = "Polymorph";
@@ -173,7 +173,7 @@ public class LobbyPlayerSelector : MonoBehaviourPunCallbacks
             switch(num)
             {
                 case 1:
-                    pow2txt.text = "Fire";
+                    pow2txt.text = "Ramp";
                     break;
                 case 2:
                     pow2txt.text = "Push";
@@ -182,10 +182,10 @@ public class LobbyPlayerSelector : MonoBehaviourPunCallbacks
                     pow2txt.text = "Shock";
                     break;
                 case 4:
-                    pow2txt.text = "Drag";
+                    pow2txt.text = "Cyclone";
                     break;
                 case 5:
-                    pow2txt.text = "Blast";
+                    pow2txt.text = "Freeze";
                     break;
                 case 6:
                     pow2txt.text = "Polymorph";

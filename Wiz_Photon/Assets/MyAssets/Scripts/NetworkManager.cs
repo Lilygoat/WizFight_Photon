@@ -18,6 +18,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public TMP_InputField inpiname;
     public TMP_Text roomcount;
     
+    
     void Start()
     {
         PhotonNetwork.ConnectUsingSettings();
